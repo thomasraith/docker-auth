@@ -1,0 +1,33 @@
+{
+  "name": "docker-auth",
+  "version": "0.1.0",
+  "description": "Docker OAuth 2.0 Authentication Service",
+  "main": "dist/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomasraith/docker-auth.git"
+  },
+  "author": "Thomas Raith <raith@in.tum.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thomasraith/docker-auth/issues"
+  },
+  "homepage": "https://github.com/thomasraith/docker-auth#readme",
+  "devDependencies": {
+    "@types/jsonwebtoken": "^7.2.8",
+    "@types/koa": "^2.0.46",
+    "@types/koa-bodyparser": "^5.0.1",
+    "@types/koa-router": "^7.0.32",
+    "@types/node": "^10.12.1",
+    "typescript": "^3.1.4"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^8.3.0",
+    "koa": "^2.6.1",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0"
+  }
+}
